@@ -134,7 +134,7 @@ import { rule } from '@/services/ant-design-pro/rule';
 
 ### mock
 
-`mock` 就比较简单了，配置为 true 之后会自动生成一些 mock 的文件，虽然质量不如我们人肉写的，但是在开发中使用已经没问题了。生成的 mock 文件在项目根路径下的 mock 文件中,生成的 mock 数据每次都不同，如果要调试可以随意修改，只有执行 `npm run openapi` 才会进行修改。
+`mock` 就比较简单了，配置为 true 之后会自动生成一些 mock 的文件，虽然质量不如我们人肉写的，但是在开发中使用已经没问题了。生成的 mock 文件在项目根路径下的 mock 文件中，生成的 mock 数据每次都不同，如果要调试可以随意修改，只有执行 `npm run openapi` 才会进行修改。
 
 ```tsx | pure
 import { Request, Response } from 'express';
